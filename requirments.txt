@@ -5,6 +5,7 @@ pdftablr
 unotools
 html2text
 filetype
+scikit-build
 opencv-python
 pdf2image
 numpy
@@ -12,9 +13,7 @@ pyocr
 extract-msg
 requests
 pymongo
-minio
 djangorestframework
 Django
 django-environ
 django-cors-headers
-drf-yasg
