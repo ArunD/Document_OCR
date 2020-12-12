@@ -22,6 +22,13 @@ if [ `apt list -a python3-pip | wc -l` -eq 1 ]
         sudo apt -y install python3-pip
     fi
 
+
+
+if [`apt list libxext6 | wc -l` -eq 1]
+    then
+        apt-get install ffmpeg libsm6 libxext6  -y
+    fi
+
 if [ `apt list -a tesseract-ocr | wc -l` -eq 1 ]
     then
         sudo apt install tesseract-ocr -y
