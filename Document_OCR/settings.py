@@ -34,7 +34,7 @@ FILE_DIR=env('FILE_DIR')
 SECRET_KEY = '00j3n73my%42=l46z#au-a(l3n=++9bza$6@wqgyer=75v@49e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
